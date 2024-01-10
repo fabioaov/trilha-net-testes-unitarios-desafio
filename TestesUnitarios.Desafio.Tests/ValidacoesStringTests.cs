@@ -27,7 +27,6 @@ public class ValidacoesStringTests
         var texto = "Esse é um texto qualquer";
         var textoProcurado = "qualquer";
 
-        //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act
         // Act
         bool resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
